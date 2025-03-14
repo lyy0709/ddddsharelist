@@ -25,11 +25,6 @@
                       size="small">
               {{ item.label }}
             </n-button>
-
-            <n-button v-if="item.label.toLowerCase() === 'pro' && item.carID.toLowerCase().startsWith('t')"
-                      text-color="white" :color="'#68bceb'" type="tertiary" size="small" style="margin-left: 4px">
-              TEAM
-            </n-button>
           </div>
           <n-text class="title">{{ item.carID }}</n-text>
         </div>
