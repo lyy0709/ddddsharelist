@@ -21,7 +21,7 @@
               @click="redirectTo(item.carID)">
         <div style="display: flex;align-items: center;justify-content: space-between;">
           <div style="display: flex;align-items: center;">
-            <n-button text-color="white" :color="item.isPro === 0 ? '#19c37d' : '#ab68ff'" type="tertiary"
+            <n-button text-color="white" :color="item.isPro == 0 ? '#19c37d' : '#ab68ff'" type="tertiary"
                       size="small">
               {{ item.label }}
             </n-button>
